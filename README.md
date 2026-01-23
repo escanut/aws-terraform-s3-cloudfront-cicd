@@ -2,7 +2,7 @@
 
 This project implements a production-ready static website hosting solution on AWS, emphasizing Infrastructure as Code, security best practices, and automated deployment pipelines. The infrastructure eliminates the need for long-lived AWS credentials by leveraging OIDC authentication between GitHub Actions and AWS.
 
-**Live Demo:** [https://d2jgqhup9totr6.cloudfront.net](https:/d2jqghup9totr6.cloudfront.net)
+**Live Demo:** [https://d2jgqhup9totr6.cloudfront.net](https://d2jqghup9totr6.cloudfront.net)
 
 **Static Website Repository:** [github.com/escanut/aws-s3-static-site-cicd](https://github.com/escanut/aws-s3-static-site-cicd)
 
