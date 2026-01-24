@@ -33,7 +33,7 @@ This project implements a production-ready static website hosting solution on AW
 - DynamoDB table for state locking to prevent concurrent modifications
 - Backend configuration ensures team collaboration safety
 
-![Architecture Diagram](architecture.jpg)
+![Architecture Diagram](architecture.png)
 *CI/CD workflow from developer commit to production deployment*
 
 ---
