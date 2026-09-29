@@ -10,10 +10,6 @@ variable "project_name" {
         type = string
 }
 
-variable "bucket_name" {
-    description = "S3 bucket name"
-    type = string
-}
 
 variable "github_username" {
   description = "Github username for OIDC policy setup"

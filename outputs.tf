@@ -10,7 +10,7 @@ output "s3_website_url" {
 
 output "cloudfront_url" {
   description = "cloudfront url used for distribution"
-  value = "https:/${aws_cloudfront_distribution.website_storage.domain_name}"
+  value = "https://${aws_cloudfront_distribution.website_storage.domain_name}"
 }
 
 output "cloudfront_distribution_id" {

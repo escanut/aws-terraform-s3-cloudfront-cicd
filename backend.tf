@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "escanut-tf-state"
+    bucket = "YOUR-IDENTIFIER-tf-state-tf-state"
     key = "s3-website/terraform.tfstate"
     region = "us-east-1"
     dynamodb_table = "tf-state-lock"
